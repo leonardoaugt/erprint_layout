@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erprint_layouts *.css
+recursive-include erprint_layouts *.csv
+recursive-include erprint_layouts *.html
+recursive-include erprint_layouts *.ico
+recursive-include erprint_layouts *.js
+recursive-include erprint_layouts *.json
+recursive-include erprint_layouts *.md
+recursive-include erprint_layouts *.png
+recursive-include erprint_layouts *.py
+recursive-include erprint_layouts *.svg
+recursive-include erprint_layouts *.txt
+recursive-exclude erprint_layouts *.pyc
