@@ -31,6 +31,14 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+fixtures = [
+    {"dt": "Print Format",
+        "filters": [[
+            "doc_type", "in", ("Quotation")
+        ]]
+    },
+    ]
+
 # Home Pages
 # ----------
 
