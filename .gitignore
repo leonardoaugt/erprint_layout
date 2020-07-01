@@ -4,3 +4,4 @@
 *.swp
 tags
 erprint_layouts/docs/current
+.idea
