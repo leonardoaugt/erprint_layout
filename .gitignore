@@ -5,3 +5,4 @@
 tags
 erprint_layouts/docs/current
 .idea
+__pycache__
